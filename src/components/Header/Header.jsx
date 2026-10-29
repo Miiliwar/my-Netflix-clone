@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-import logo from "../../assets/ImagesForInitialUse/image/logo.png";
+import logo from "../../assets/image/logo.png";
 import { Link } from "react-router-dom";
 import { Search, Bell, User, ChevronDown } from "lucide-react";
 import styles from "./Header.module.css";
@@ -68,7 +68,7 @@ function Header() {
               <input
                 type="text"
                 placeholder="movie title"
-                ClassName={styles.searchinput}
+                className={styles.searchinput}
               />
             )}
           </div>

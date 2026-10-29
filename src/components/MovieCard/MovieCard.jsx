@@ -12,7 +12,6 @@ function MovieCard({ movie }) {
   return (
     <div className={styles.cardWrapper}>
       {/* poster image */}
-      // Inside MovieCard.jsx
       <img
         className={styles.poster}
         src={`${IMAGE_BASE}${movie?.poster_path}`}

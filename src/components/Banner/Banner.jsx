@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import NetflixBannerlogo from "../../assets/ImagesForInitialUse/image/logo.png";
+import NetflixBannerlogo from "../../assets/image/logo.png";
 import { Play, Info } from "lucide-react";
 import styles from "./Banner.module.css";
 import { movieInstance } from "../../Utility/movieinstanc";
